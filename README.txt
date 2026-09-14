@@ -1,22 +1,10 @@
-LE PALACE ORAN — SITE FINAL
-============================
-Version maquette fonctionnelle.
+LE PALACE ORAN — VERSION COMPLETE
 
-Nouveauté demandée :
-- Texte visible dans l’accueil : « Bienvenue chez Nacer »
+Inclus : site client, photo originale du Palace, menu (plats/desserts/vin/whisky/bière), réservation, commande à l’avance, QR tables 01 à 20, espace caisse/gérant avec connexion et gestion du menu.
 
-Client :
-- Accueil, Menu, Réservation, Commande à l’avance, Galerie, Contact
-- Téléphone réservation : 0541 85 25 82
-- Mention : tenue correcte exigée
-- QR / tables et espace caisse accessibles depuis le site
+Connexion démo gérant : gerant / Palace2026
 
-Caisse / gérant :
-- Modification des plats, catégories et prix
-- Ajout / suppression de produits
-- Tables 01 à 20 avec QR codes de démonstration
+Domaine prévu : www.resto-palace.dz
+Le fichier CNAME est inclus. Dans GitHub Pages, ajoutez aussi le domaine personnalisé dans Settings > Pages. Chez votre registrar, créez CNAME www -> mahdiben1331-bot.github.io.
 
-Important pour la mise en ligne :
-- Le menu utilise localStorage dans cette maquette. Pour une vraie exploitation, remplacer par une base de données/API.
-- Les QR codes de démonstration utilisent api.qrserver.com et pointent vers les URLs finales des tables.
-- Le domaine prévu est www.resto-palace.dz.
+IMPORTANT : la liaison client -> caisse dans cette version statique utilise le stockage local du navigateur. Pour recevoir réellement les commandes d’un téléphone client sur le téléphone/PC de la caisse, il faudra connecter le site à une base de données/API et une authentification serveur.
