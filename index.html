@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le Palace Oran — Restaurant · Bar · Lounge</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#accueil"><span class="crown">♛</span><span>LE PALACE<small>ORAN</small></span></a>
+  <nav>
+    <a class="active" href="#accueil">Accueil</a><a href="#menu">Menu</a><a href="#reservation">Réservation</a>
+    <a href="#commande">Commande à l'avance</a><a href="#galerie">Galerie</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="login" href="../caisse/index.html">♙ Se connecter</a>
+</header>
+
+<main>
+<section id="accueil" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="eyebrow">LE PALACE ORAN</div>
+    <div class="sub">RESTAURANT · BAR · LOUNGE</div>
+    <h1>UNE EXPÉRIENCE<br><span>CULINAIRE UNIQUE</span></h1>
+    <div class="script">Ambiance musicale <b>♫</b></div>
+    <p>Bienvenue chez <strong>Nacer</strong> — savourez le meilleur de la gastronomie dans un cadre élégant et chaleureux, au cœur d’Oran.</p>
+    <div class="actions"><a class="btn gold" href="#reservation">🍴 Réserver une table →</a><a class="btn" href="#menu">▣ Voir notre menu</a></div>
+  </div>
+</section>
+
+<section class="features">
+  <div>🍴 <strong>Cuisine raffinée</strong><small>Saveurs authentiques</small></div>
+  <div>🍸 <strong>Bar Lounge</strong><small>Cocktails & Ambiance</small></div>
+  <div>♫ <strong>Ambiance musicale</strong><small>Live & DJ sets</small></div>
+  <div>▣ <strong>Réservation en ligne</strong><small>Simple et rapide</small></div>
+  <div>🛵 <strong>Commande à l’avance</strong><small>À emporter / Livraison</small></div>
+</section>
+
+<section id="menu" class="section">
+  <div class="section-head"><span>LA CARTE</span><h2>Notre Menu</h2><p>Une sélection généreuse à découvrir sur place.</p></div>
+  <div id="menuGrid" class="cards"></div>
+</section>
+
+<section id="reservation" class="section split">
+  <div><div class="section-head left"><span>RÉSERVATION</span><h2>Réservez votre table</h2></div>
+  <p>Pour une réservation rapide, appelez le <a class="phone" href="tel:0541852582">0541 85 25 82</a>.</p>
+  <p class="notice">⚠️ Une tenue correcte est exigée.</p></div>
+  <form id="reservationForm" class="panel">
+    <input required placeholder="Nom et prénom">
+    <input required type="tel" placeholder="Téléphone">
+    <div class="row"><input required type="date"><input required type="time"></div>
+    <input required type="number" min="1" max="30" placeholder="Nombre de personnes">
+    <textarea placeholder="Message (facultatif)"></textarea>
+    <button class="btn gold" type="submit">Confirmer la demande</button>
+  </form>
+</section>
+
+<section id="commande" class="section">
+  <div class="section-head"><span>À L'AVANCE</span><h2>Commande à l’avance</h2><p>Choisissez vos plats et préparez votre commande avant votre arrivée.</p></div>
+  <div class="order-box"><div><h3>Pratique & rapide</h3><p>Ajoutez vos plats au panier depuis le menu puis envoyez votre demande de commande.</p></div><a class="btn gold" href="#menu">Choisir mes plats →</a></div>
+</section>
+
+<section id="galerie" class="section">
+  <div class="section-head"><span>L'UNIVERS</span><h2>Galerie</h2></div>
+  <div class="gallery"><img src="assets/facade-originale.jpg"><div class="gallery-card">LE PALACE ORAN<br><small>Restaurant · Bar · Lounge</small></div><div class="gallery-card music">♫<br><small>Ambiance musicale</small></div></div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="section-head left"><span>NOUS TROUVER</span><h2>Contact</h2></div>
+  <div class="contact-grid"><div><b>Adresse</b><p>Oran, Algérie</p></div><div><b>Téléphone</b><p><a href="tel:0541852582">0541 85 25 82</a></p></div><div><b>Horaires</b><p>Tous les jours · 12h – 02h</p></div></div>
+</section>
+</main>
+
+<footer><div class="footer-brand">♛ LE PALACE <small>ORAN</small></div><div>Le Palace … plus qu'un restaurant !</div><div>© 2026 Le Palace Oran · Mentions légales · Politique de confidentialité</div></footer>
+<script src="client.js"></script>
+</body>
+</html>
